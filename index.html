@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conver to Bionic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Koulen&family=Roboto+Mono:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./resources/styles.css">
+</head>
+<body>
+    <div class="center">
+        <h1>Convert to Bionic Text</h1>
+        <p id="about">This was created by Eric Lake using the <a href="https://bionic-reading.com/">Bionic Reading API</a></p>
+        <div class="inOut">
+            <form class="half">
+                <textarea id="pasteIn" name="pasteIn">Paste in the text you'd like to convert!</textarea>
+            </form>
+            <p id="fetchedData" class="half">
+            </p>
+        </div>
+        <input type="submit" value="Submit" id="fetchButton">
+    </div>
+<script src="./resources/script.js"></script>
+</body>
+</html>

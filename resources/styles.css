@@ -1,0 +1,68 @@
+:root {
+    --bg: #F7F7F9
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color: var(--bg);
+}
+
+.center {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about{
+    text-align: center;
+}
+
+.inOut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.half {
+    width: 100%;
+    margin: 1rem 1rem;
+    max-width: 20rem;
+    border: 1px solid black;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+
+
+#pasteIn, #fetchedData {
+    font-size: 1rem;
+    width: 20rem;
+    height: 20rem;
+    background-color: #fff;
+}
+
+#fetchButton {
+    padding: .5rem 1rem;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .inOut {
+        flex-direction: column;
+    }
+    
+}
