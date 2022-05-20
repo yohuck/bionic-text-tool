@@ -62,6 +62,7 @@ form{
     width: 20rem;
     height: 20rem;
     background-color: #fff;
+    overflow: scroll;
 }
 
 #fetchButton {
